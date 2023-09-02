@@ -6,7 +6,6 @@ class Solution(object):
         for i in range(len(nums) - 1):
             j = i+1
             for j in range(i+1, len(nums)):
-                print(j)
                 try:
                     if(nums[i]+nums[j]==target):
                         out = [i,j]
